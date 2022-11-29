@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <title>Zahlenrechner</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="rechner">
+            <h1>Rechner</h1>
+
+            <form action="rechner.php" method="POST">
+                <label for="Zahl">Zahl:</label><br>
+                <input type="text" id="Zahl" name="Zahl"><br><br>
+
+                <h2>Rechner 1: (Von)</h2>
+
+                <input type="radio" id="rechner1" name="rechner1" value="Binär">
+                <label for="rechner1">Binär</label><br>
+                <input type="radio" id="rechner1" name="rechner1" value="Dezimal">
+                <label for="rechner1">Dezimal</label><br>
+                <input type="radio" id="rechner1" name="rechner1" value="Hexa">
+                <label for="rechner1">Hexa</label><br><br>
+
+                <h2>Rechner 2: (Zu)</h2>
+
+                <input type="radio" id="rechner2" name="rechner2" value="Binär">
+                <label for="rechner1">Binär</label><br>
+                <input type="radio" id="rechner2" name="rechner2" value="Dezimal">
+                <label for="rechner1">Dezimal</label><br>
+                <input type="radio" id="rechner2" name="rechner2" value="Hexa">
+                <label for="rechner1">Hexa</label><br><br>
+
+                <input type="Submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

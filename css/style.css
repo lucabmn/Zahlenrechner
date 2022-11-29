@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rechner {
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
